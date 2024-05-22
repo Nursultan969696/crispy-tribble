@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Продолжение кода */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    /* Медиа-запрос для мобильных устройств */
+    header {
+        padding: 10px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .gallery img {
+        width: 100%;
+    }
+}
+/* Продолжение кода */
+@media screen and (max-width: 400px) {
+    /* Дополнительный медиа-запрос для устройств с очень небольшим экраном */
+    header {
+        font-size: 18px;
+    }
+    nav ul li {
+        margin-right: 10px;
+    }
+    .gallery img {
+        width: 100%;
+    }
+    footer {
+        padding: 5px;
+    }
+}
+/* Продолжение кода */
+@media screen and (min-width: 1200px) {
+    /* Дополнительный медиа-запрос для крупных экранов */
+    .gallery img {
+        width: 250px;
+    }
+}
+/* Продолжение кода */
+#features {
+    padding: 20px;
+}
+
+#features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#features h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+@media screen and (min-width: 768px) {
+    /* Дополнительный медиа-запрос для планшетов и больших экранов */
+    #features {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+/* Продолжение кода */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#contact h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Дополнительный медиа-запрос для планшетов и больших экранов */
+    #contact {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+/* Продолжение кода */
+#reviews {
+    padding: 20px;
+}
+
+#reviews h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review h3 {
+    color: #007bff;
+}
+
+.review p {
+    color: #333;
+}
+
+@media screen and (min-width: 768px) {
+    /* Дополнительный медиа-запрос для планшетов и больших экранов */
+    #reviews {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+/* Продолжение кода */
+#videos {
+    padding: 20px;
+}
+
+#videos h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Дополнительный медиа-запрос для планшетов и больших экранов */
+    #videos {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+/* Продолжение кода */
+#prices {
+    padding: 20px;
+}
+
+#prices h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.model {
+    margin-bottom: 20px;
+}
+
+.model h3 {
+    color: #007bff;
+}
+
+@media screen and (min-width: 768px) {
+    /* Дополнительный медиа-запрос для планшетов и больших экранов */
+    #prices {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
